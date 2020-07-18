@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+            <h1>Rock Paper Scissor Game</h1>
+        <div class="div1">
+           <table class="Scoreboard">
+            <tr class="Scoreboard">
+                <th class="Scoreboard">Your </th>
+                <th class="Scoreboard">Computer</th>
+            </tr>
+            <tr class="Scoreboard">
+                <td class="Scoreboard" id = "your_score">0</td>
+                <td class="Scoreboard" id="computer_score">0</td>
+            </tr>
+           </table>
+        </div>
+
+        <div class="div2">
+            <button onclick="playrock()" id="bnt1" class="btn">ROCK</button>
+            <button onclick="playpaper()" id="bnt2" class="btn">PAPER</button>
+            <button onclick="playscissor()" id="bnt3" class="btn">SCISSOR</button>
+        </div>
+        <div class="div3">
+            <p>You : <strong id="p1"></strong></p>
+            <p>Computer : <strong id="p2"></strong></p>
+        </div>
+
+        <p id="result"></p>
+
+    </body>
+</html>

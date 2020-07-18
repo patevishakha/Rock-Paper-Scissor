@@ -1,0 +1,67 @@
+body
+{
+    background-color: rgb(46, 44, 44);
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+    text-decoration: underline;
+    box-shadow: burlywood;
+    color: aqua;  
+}
+.div1
+{
+    margin-left: 45%;
+
+}
+.Scoreboard
+{   
+    border: 3px solid cyan;
+    font-weight: bold;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    color: cyan;
+}
+
+.div2
+{
+    margin-left: 38%;
+}
+
+.btn
+{   
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: cyan;
+    color: rgb(5, 5, 68);
+    font-weight: bold;
+    border: 2px solid rgb(110, 190, 117);
+    text-align: center;
+
+}
+.div3
+{
+    margin-left: 40%;
+    margin-top: 15px;
+    color: cyan;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#result
+{   
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: xx-large;
+    color: cyan;
+}
